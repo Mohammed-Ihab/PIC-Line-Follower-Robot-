@@ -25,7 +25,7 @@ The robot performs the following functions:
     - *Green LED: Obstacle is at a **safe distance*
 
 - *LCD Display*  
-  An *alphanumeric LCD* displays the robot's current status (e.g., "Following Line", "Obstacle Close", "Turning Left", etc.).
+  An *alphanumeric LCD* displays the robot's current status (e.g., "LINE FOLLOWING", "STOP  OBJECT DETECTED", etc.).
 
 ---
 
