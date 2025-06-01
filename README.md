@@ -44,12 +44,15 @@ The robot performs the following functions:
 - The analog sensor range thresholds can be adjusted in the code as desired.
 - If nothing appears on the LCD even though the connections are correct, the initial delay in LCD_INIT might need to be increased.
 
+---
 
 ## 🛠 Tools Used
 
 MPLAB IDE v8.92 – for writing and assembling the PIC assembly code
 
 Proteus – for simulating the circuit and testing the robot behavior
+
+---
 
 ## 🧪 Simulation
 ![Line Follower Robot Simulation](img/full_sim.gif)
