@@ -29,8 +29,27 @@ The robot performs the following functions:
 
 ---
 
+## ▶ How to Run the Simulation
+
+1. Open simulation/Line_Follower_Sim.pdsprj in Proteus.
+2. Load simualation/line_follower_robot.HEX into the PIC16F877A in the schematic.
+3. Run the simulation.
+4. Interact with the line sensors and proximity sensors to observe the robot’s behavior on the LCD.
+
+---
+
+## 🧠 Notes
+
+- Delays will be affected if 4MHz crystal oscillator is not used.
+- The analog sensor range thresholds can be adjusted in the code as desired.
+- If nothing appears on the LCD even though the connections are correct, the initial delay in LCD_INIT might need to be increased.
+
+
 ## 🛠 Tools Used
 
-- *Assembly Language* (MPLAB / MPASM)
-- *Proteus* for simulation
-- *PIC16F877A* microcontroller
+MPLAB IDE v8.92 – for writing and assembling the PIC assembly code
+
+Proteus – for simulating the circuit and testing the robot behavior
+
+## 🧪 Simulation
+![Line Follower Robot Simulation](img/full_sim.gif)
