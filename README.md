@@ -56,3 +56,9 @@ Proteus – for simulating the circuit and testing the robot behavior
 
 ## 🧪 Simulation
 ![Line Follower Robot Simulation](img/full_sim.gif)
+
+---
+
+## 📜 License
+
+This project is for educational purposes. Feel free to reuse or modify it for learning, but please credit the original author.
